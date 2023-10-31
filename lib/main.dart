@@ -25,7 +25,7 @@ class FirstPage extends StatelessWidget {
           onPressed: () {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                content: const Text('My Snackbar'),
+                content: const Text('Common Snackbar'),
                 behavior: SnackBarBehavior.floating,
                 margin:
                     const EdgeInsets.symmetric(horizontal: 50, vertical: 30),
@@ -42,7 +42,7 @@ class FirstPage extends StatelessWidget {
               ),
             );
           },
-          child: const Text('Visible Snackbar'),
+          child: const Text('Visiblity'),
         ),
       ),
     );
