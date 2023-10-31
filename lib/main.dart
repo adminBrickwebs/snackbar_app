@@ -42,7 +42,7 @@ class FirstPage extends StatelessWidget {
               ),
             );
           },
-          child: const Text('Show Snackbar'),
+          child: const Text('Visible Snackbar'),
         ),
       ),
     );
